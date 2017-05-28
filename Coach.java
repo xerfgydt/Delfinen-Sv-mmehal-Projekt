@@ -173,7 +173,7 @@ public void seeTrainingresult(EliteSwimmer el){
         Scanner scan = new Scanner(System.in);
 
         System.out.println();
-        System.out.print("Please enter the category of the event: ");
+        System.out.print("Please enter the discipline: ");
         String category = scan.nextLine();
         if (el.getDiscipline(category) == null){
             System.out.println("The member is not registered in that disciplin ");
@@ -186,7 +186,7 @@ public void seeTrainingresult(EliteSwimmer el){
 
 public void diplayEvents(EliteSwimmer el){
 
-         el.getAllDisciplines();
+         el.displayAllDisciplines();
    
 }
 }

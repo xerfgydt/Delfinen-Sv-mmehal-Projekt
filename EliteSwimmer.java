@@ -25,11 +25,13 @@ public class EliteSwimmer extends Member implements java.io.Serializable{
         }
         return null;
     }   
-    public void getAllDisciplines(){
+    public void displayAllDisciplines(){
         for (Discipline d : disciplineList){
                 if(disciplineList == null){
                     System.out.println("This member does not have any diciplines!! ");
                 }else{
+                    System.out.println();
+                    System.out.println("Discipline: " + d.getCategory());
                     d.diplayEvetnList();
 
                 }

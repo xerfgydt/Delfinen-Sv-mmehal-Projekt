@@ -67,9 +67,7 @@ public void setCpr(){
         return activity;
     }
 
-    public void setMembership(String membership){
-            this.membership = membership;
-    }
+
  
         
     
